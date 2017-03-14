@@ -10,15 +10,17 @@ function reverseString(input){
 		n.push(b)
 
 	}
+	n=n.join('');
 	n=n.toString();
-	//input.reverse()
-	if(n.length-2==rev.length){
+	//console.log(n.length);
+	//n=n.join('');
+	if (rev==n){
 		return true
+
 	}
-	console.log(rev);
 return n
 }
 module.exports={
 	reverseString:reverseString
 }
-console.log(reverseString('civic'))
+console.log(reverseString('civi'));
