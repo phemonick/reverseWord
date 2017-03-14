@@ -1,0 +1,12 @@
+{
+  "name": "Reverse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reverse.js",
+  "scripts": {
+    "test": "jasmine reverse_spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
